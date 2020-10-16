@@ -1,0 +1,74 @@
+body {
+background-image: url("images/fon.png");
+background-size: 300px 350px;
+
+
+}
+/*Зафіксовані кнопки збоку*/
+.Table_1 {
+	border: 5px solid black;
+	color: red ;
+	background: blue;
+	margin:50px;
+	padding: 10px;
+	text-align: center;
+	align-self: center;
+	position: fixed;
+	right: 10px;
+	top :10%;
+	}
+/*Силки кнопки під Н1*/
+.Td_1234 {
+	border: 1px solid black;
+	margin-top: 110px;
+	padding: 30px;
+}
+
+/*Кнопки під H1*/
+.table_1{
+
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+}
+/*Силки на сайти*/
+.Th_1234{
+	vertical-align: top;
+	padding-right: 150px;
+	padding-bottom: 40px;
+	margin: 10px;
+	border:1px solid black;
+	background: red;
+	position: initial;
+	text-transform: uppercase;
+	text-align: center; 
+	text-decoration: overline;
+}
+/*     Форма    */
+.form_1 {
+	box-shadow: -5px 0  10px 10px;
+	background-image:url(images/text_1.jpg); 
+	background-size: 200px 250px;  
+	margin: 40px ;
+    width: 600px;
+    height:350px;
+}
+
+/*    Кнопки під формою   */
+input {
+	padding: 5px;
+	margin: 5px;
+	margin-left: 200px;
+    align-self: center;
+
+}
+/*   Головний надпис в горі */
+h1 {
+	background: #ED1C24;
+	min-height: 100px;
+	font:60px Impact, sans-serif;
+	color: #fff;
+	white-space: nowrap;
+	padding-left: 20px;
+	position: relative;
+}
